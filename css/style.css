@@ -1,3 +1,22 @@
 body{
-	background-color: coral
+	background-color: lavenderblush;
+}
+
+.cool{
+	visibility: hidden;
+	width: 100px;
+	height: 100px;
+	background-color: violet;
+	transition: background-color 2s;
+}
+
+.cool p {
+	font-family: monospace;
+	text-align: center;
+}
+
+.cool.red{
+	visibility: visible;
+	display: block;
+	background-color: red;
 }
