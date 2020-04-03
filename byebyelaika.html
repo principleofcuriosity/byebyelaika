@@ -3,6 +3,7 @@
 <head>
 	<title>Bye Bye Laika</title>
 	<link rel="stylesheet" type="text/css" href="css/byebyelaika.css">
+	<script type="text/javascript" src="js/byebyelaika.js"></script>
 </head>
 
 
@@ -16,7 +17,7 @@
 			<div class="state1">
 				<p>In November 1957, Laika became the first animal launched into Earth orbit, paving the way for human spaceflight during the upcoming years.</p>
 				<a href="#" class="button"
-				onclick="startCountDown();">
+				onclick="changeState(2);">
 					Launch Laika into outer space!
 				</a>
 			</div>
@@ -24,19 +25,19 @@
 			<div class="state2">
 				<h2 id="countdown">10</h2>
 				<a href="#" class="button"
-				onclick="abort();">
+				onclick="changeState(1);">
 					Wait, stop. This is not a good idea. Bring Laika back to Earth!
 				</a>
 			</div>
 			<!-- state 3 -->
 			<div class="state3">
-				<h2>Fly Laika, Fly! And come back safe and sound to Earth!</h2>
+				<h2>Fly Laika, Fly! And come back safe and sound to Earth again!</h2>
 			</div>
 			<!-- state 4 -->
 			<div class="state4">
 				<h2>"Achtung, Achtung. Laika reporting from outer space. Mission accomplished. Barf! Out."</h2>
 				<a href="#" class="button"
-				onclick="doItAgain();">
+				onclick="changeState(1);">
 					Launch Laika on a new mission!
 				</a>
 			</div>
@@ -50,7 +51,7 @@
 					On 11 April 2008, Russian officials unveiled a monument to Laika. A small monument in her honour was built near the military research facility in Moscow that prepared Laika's flight to space. It portrayed a dog standing on top of a rocket. She also appears on the Monument to the Conquerors of Space in Moscow.
 					</p>
 				<a href="#" class="button"
-				onclick="doItAgain();">
+				onclick="changeState(1);">
 					Launch a new Laika on a new mission!
 				</a>
 			</div>
