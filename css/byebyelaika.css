@@ -7,14 +7,20 @@
 	left: 0;
 }
 
+.background {
+	background-image: url('engraving.jpg');
+}
+
 .right {
-	background-color: #4E30BB;
+	background-image: url('engraving.jpg');
 	position: fixed;
 	height: 100%;
 	width: 50%;
 	top: 0;
 	right: 0;
 }
+
+
 
 .ground {
 	background-color: #5AFFA8;
