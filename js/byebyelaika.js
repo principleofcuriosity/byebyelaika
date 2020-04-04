@@ -1,12 +1,3 @@
-<<<<<<< Updated upstream
-var changeState = function (state) {
-	document.body.className = 'body-state' + state;
-}
-
-if (state == 2) {
-	document.getElementById('countdown').innerHTML() = 9;
-};
-=======
 var timer = null;
 var countdownNumber = 10;
 
@@ -44,4 +35,3 @@ var changeState = function (state) {
 	}
 }
 
->>>>>>> Stashed changes

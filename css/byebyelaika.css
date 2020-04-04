@@ -35,10 +35,6 @@
 	transition: bottom 5000ms;
 }
 
-<<<<<<< Updated upstream
-.rocket.fly {
-	bottom: 2000px
-=======
 body.body-state1 .rocket{
 	transition: none;
 }
@@ -46,7 +42,6 @@ body.body-state1 .rocket{
 body.body-state3 .rocket,
 body.body-state4 .rocket{
 	bottom: 1800px
->>>>>>> Stashed changes
 }
 
 .state1, 
